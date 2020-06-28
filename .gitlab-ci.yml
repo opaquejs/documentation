@@ -1,7 +1,9 @@
 image: node:14
 
 pages:
+    stage: deploy
     script: 
+        - npm install
         - npm run docs:build
         - mv .vuepress/dist public
     artifacts:
