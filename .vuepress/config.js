@@ -1,7 +1,7 @@
 module.exports = {
     title: 'Opaque',
     description: 'A Client-Side Javascript ORM',
-    base: '/documentation',
+    base: '/documentation/',
     themeConfig: {
         nav: [
             { text: 'Documentation', link: '/' },
