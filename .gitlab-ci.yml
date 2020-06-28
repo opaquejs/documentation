@@ -1,0 +1,9 @@
+image: node:14
+
+pages:
+    script: 
+        - npm run docs:build
+        - mv .vuepress/dist public
+    artifacts:
+        paths: 
+            - public

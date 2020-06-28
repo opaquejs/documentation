@@ -15,6 +15,16 @@ module.exports = {
                     '/getting-started/defining-models',
                     '/getting-started/working-with-models',
                     '/getting-started/querying',
+                    '/getting-started/managing-models',
+                ],
+            },
+            {
+                title: 'First-Party Extensions',
+                collapsable: false,
+                children: [
+                    '/extensions/local',
+                    '/extensions/vue',
+                    '/extensions/socketio',
                 ],
             },
         ],
