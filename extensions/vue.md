@@ -31,7 +31,7 @@ const app = new Vue(
 )
 ```
 ::: warning
-If you are not using a **Base Model** how it is described in [Managing Models](/getting-started/managing-models), you will have to call `Vue.use(...)` on **every** Model.
+If you are not using a **Base Model** how it is described in [Managing Models](/documentation/getting-started/managing-models), you will have to call `Vue.use(...)` on **every** Model.
 :::
 
 ## Manually Making Queries Reactive

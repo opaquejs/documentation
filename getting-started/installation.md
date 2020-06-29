@@ -8,12 +8,12 @@ npm install @opaquejs/opaque
 After this, you either have to write your own implementaion on how to store, retrieve and update you models, or you go with one of the defaults below.
 
 ## First-Party Implementations
-### [Local Models](/extensions/local)
+### [Local Models](/documentation/extensions/local)
 ```sh
 npm install @opaquejs/local
 ```
 
-### [Socket IO Backend](/extensions/socketio)
+### [Socket IO Backend](/documentation/extensions/socketio)
 ```sh
 npm install @opaquejs/socketio
 ```

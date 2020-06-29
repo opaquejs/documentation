@@ -2,7 +2,7 @@
 
 A model typially lives inside its own file, named after the model class. Since Opaque JS is framework-agnostic, you can place your model where you want it to place. There is no recommended way, because every framework you might work with is different.
 
-Opaque JS only provides a basic Model implementation at `@opaquejs/opaque`, which can be extended to implement your specific use case. Let's start with a local, non-permanent array representation of all your models. In this case, we can use the `@opaquejs/local` implementation. [Read more about the local model here](/getting-started/installation#local-models).
+Opaque JS only provides a basic Model implementation at `@opaquejs/opaque`, which can be extended to implement your specific use case. Let's start with a local, non-permanent array representation of all your models. In this case, we can use the `@opaquejs/local` implementation. [Read more about the local model here](/documentation/extensions/local).
 
 ```js
 import { LocalModel } from '@opaquejs/local'

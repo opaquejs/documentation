@@ -1,7 +1,7 @@
 # Working with Models
 
 ::: warning
-*Making a model persistent* can have different meanings, depending on your implementation. In our [local](/getting-started/installation.md#local-models) example, it will push this model to a local array, containing all *persistent* models.
+*Making a model persistent* can have different meanings, depending on your implementation. In our [local](/documentation/extensions/local) example, it will push this model to a local array, containing all *persistent* models.
 :::
 
 ## Creating Models
