@@ -1,8 +1,20 @@
+const logo = './logo.png'
+
 module.exports = {
     title: 'Opaque',
     description: 'A Client-Side Javascript ORM',
     base: '/documentation/',
+    head: [
+        ['link', { rel: 'icon', href: logo }],
+    ],
     themeConfig: {
+        logo,
+        lastUpdated: 'Last Updated',
+        repo: 'https://gitlab.com/opaquejs',
+        repoLabel: 'GitLab',
+        docsRepo: 'https://gitlab.com/opaquejs/documentation',
+        editLinks: true,
+        editLinkText: 'Edit this page',
         nav: [
             { text: 'Documentation', link: '/' },
         ],
@@ -26,6 +38,13 @@ module.exports = {
                     '/extensions/local',
                     '/extensions/vue',
                     '/extensions/socketio',
+                ],
+            },
+            {
+                title: 'Digging Deeper',
+                collapsable: false,
+                children: [
+                    '/digging-deeper/models',
                 ],
             },
         ],

@@ -18,7 +18,7 @@ export default class Base extends useSocketio(Model) {
 ```
 
 ## Configuration
-### Resource Names
+### Resource Name
 Typically, your model refers to a specific resource type on a server. With the static `resource_name` property on your models, you are specifying which resource your model is refering on the server. This value is later used in [Event Names](#event-names). By default, it is defined as:
 ```js{3}
 export default class Base extends useSocketio(Model) {
