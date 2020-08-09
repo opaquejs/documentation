@@ -10,9 +10,9 @@ module.exports = {
     themeConfig: {
         logo,
         lastUpdated: 'Last Updated',
-        repo: 'https://gitlab.com/opaquejs',
-        repoLabel: 'GitLab',
-        docsRepo: 'https://gitlab.com/opaquejs/documentation',
+        repo: 'https://github.com/opaquejs/opaque',
+        repoLabel: 'Github',
+        docsRepo: 'https://github.com/opaquejs/documentation',
         editLinks: true,
         editLinkText: 'Edit this page',
         nav: [
