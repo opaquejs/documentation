@@ -17,11 +17,6 @@ jobs:
           node-version: 12
       - run: npm ci
       - run: npm run docs:build
-      - name: Commit files
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git commit -m "Add changes" -a
       - name: Pushes to another repository
         uses: cpina/github-action-push-to-another-repository@master
         env:
