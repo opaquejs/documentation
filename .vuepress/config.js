@@ -3,7 +3,7 @@ const logo = '/logo.png'
 module.exports = {
     title: 'Opaque',
     description: 'A Client-Side Javascript ORM',
-    base: '/documentation/',
+    base: '/',
     head: [
         ['link', { rel: 'icon', href: logo }],
     ],
