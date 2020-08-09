@@ -1,4 +1,4 @@
-const logo = './logo.png'
+const logo = '/logo.png'
 
 module.exports = {
     title: 'Opaque',

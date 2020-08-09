@@ -22,8 +22,12 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git commit -m "Add changes" -a
-      - name: GitHub Push
-        uses: ad-m/github-push-action@v0.6.0
+      - name: Pushes to another repository
+        uses: cpina/github-action-push-to-another-repository@master
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: built
+          source-directory: '.vuepress/dist'
+          destination-github-username: 'opaquejs'
+          destination-repository-name: 'opaquejs.github.io'
+          user-email: docs.actions@github.com
